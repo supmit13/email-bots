@@ -1,0 +1,2778 @@
+Initializing EmailBot logger - Thu, September 23, 2012
+Successfully created 'GmailBot' object with following configuration:
+{'outputFormat': 'csv', 'numThreads': '1', 'attachmentsDir': '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments', 'canResume': 'True', 'acctPasswd': '********', 'acctUserId': 'supriyo.mitra@indiamart.com', 'Logfile': './Logs/GmailBot.log', 'outputDir': '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart'}
+
+Successfully logged in as supriyo.mitra@indiamart.com
+
+HTML (basic) view successfully set.
+
+Number of contacts: 107
+
+Dumping contacts: {'supmit@rediffmail.com': 'supmit', 'ds@indiamart.com': 'Devendra Singh', 'nitin.chaudhary@indiamart.com': 'Nitin Chaudhary', 'sudhirk@indiamart.com': 'Sudhir Kumar', 'neerajv@indiamart.com': 'neerajv', 'nimish@indiamart.com': 'Nimish Garg', 'ravi@indiamart.com': 'Ravi Shekhar Agrawal', 'varun.panwar@indiamart.com': 'Varun Panwar', 'supmit@gmail.com': 'Supriyo Mitra', 'sanjaybansal@indiamart.com': 'Sanjay Bansal', 'aniruddh.singh@indiamart.com': 'Aniruddh Pratap Singh', 'kamaltalwar@indiamart.com': 'Kamal Talwar', 'namrata@indiamart.com': 'Namrata Goel', 'fcp-team@indiamart.com': 'FCP-Team', 'mahendra.prasad@indiamart.com': 'Mahendra Prasad', 'shyam.singh@indiamart.com': 'Shyam Singh', 'supmit13@yahoo.com': 'supmit13', 'lalit.mohan@indiamart.com': 'Lalit Mohan', 'bhavna.nandi@indiamart.com': 'Bhavna Nandi', 'upasana.c@indiamart.com': 'Upasana Chattopadhyay', 'psharma@indiamart.com': 'Pankaj Sharma', 'rajeevkumar@indiamart.com': 'Rajeev Kumar', 'himani.shinghal@indiamart.com': 'Himani Shinghal', 'amit@indiamart.com': 'amit', 'jiwan.garg@indiamart.com': 'Jiwan Garg', 'gladmin-team@indiamart.com': 'Gladmin', 'dba@indiamart.com': 'dba', 'deepika@indiamart.com': 'Deepika Verma', 'nimita@indiamart.com': 'Nimita Singh', 'rohitarora@indiamart.com': 'Rohit Arora', 'gautam@indiamart.com': 'Anil Gautam', 'vns_smitra@yahoo.co.in': 'vns_smitra', 'mohit.chaudhary@indiamart.com': 'Mohit Chaudhary', 'sharma.suresh@indiamart.com': 'Suresh Kumar Sharma', 'richa.singh@indiamart.com': 'Richa Singh', 'dharmendra.sharma@indiamart.com': 'Dharmendra Sharma', 'pradeepc@indiamart.com': 'Pradeep Chopra', 'tanuj@indiamart.com': 'Tanuj Singhal', 'mamta.sharma@indiamart.com': 'Mamta Sharma - IndiaMART', 'my-team@indiamart.com': 'MY-Team', 'sunil.purohit@indiamart.com': 'Sunil Purohit', 'sumit.shrivastava@indiamart.com': 'Sumit.Shrivastava -IndiaMART', 'mukul.gaur@indiamart.com': 'Mukul Kumar', 'ramu@indiamart.com': 'Ramu Lath - IndiaMART', 'nidhi.singh@indiamart.com': 'Nidhi Singh', 'vikas@indiamart.com': 'Vikas Aggarwal [IndiaMART.com]', 'amit.gairola@indiamart.com': 'amit.gairola', 'hunny.sharma@indiamart.com': 'Hunny Sharma', 'kamal@indiamart.com': 'Kamal Mamgain', 'sandbox@indiamart.com': 'SandBox', 'ankur.lakwhan@indiamart.com': 'Ankur Lakwhan', 'devrajsingh@indiamart.com': 'Devraj Singh', 'abhishek.kumar@indiamart.com': 'Abhishek Kumar', 'anurag.srivastava@indiamart.com': 'Anurag Srivastava', 'joy@indiamart.com': 'Joy Prakash Chakraborty', 'ankush.koratkar@indiamart.com': 'Ankush Koratkar', 'yogesh.gupta@indiamart.com': 'Yogesh Kumar Gupta', 'sanjeet.jha@indiamart.com': 'Sanjeet jha - IndiaMART', 'ksumesh@indiamart.com': 'Sumesh Kumar Srivastava', 'sumitagarwal@indiamart.com': 'Sumit Agarwal', 'prateek.gupta@indiamart.com': 'Prateek Gupta', 'indranil.mukhopadhyay@indiamart.com': 'Indranil Mukhopadhyay', 'sa@indiamart.com': 'Server Admiin', 'vikrantchandra@indiamart.com': 'Vikrant Chandra', 'laxman@indiamart.com': 'Laxman Singh', 'komal.bhatia@indiamart.com': 'Komal Bhatia', 'mukund.kumar@indiamart.com': 'mukund.kumar', 'rachit.puri@indiamart.com': 'Rachit Puri', 'shreya.chauhan@indiamart.com': 'Shreya Chauhan', 'pankajverma@indiamart.com': 'Pankaj Verma', 'ramesh.nain@indiamart.com': 'Ramesh Nain', 'avinash.agrawal@indiamart.com': 'Avinash Agrawal', 'prusothman.kannan@indiamart.com': 'Prusothman Muthu Kannan', 'avnesh@indiamart.com': 'Avnesh Sharma - IndiaMART', 'sudhanshu@indiamart.com': 'Sudhanshu Kumar Tiwari', 'sunil.grover@indiamart.com': 'Sunil Grover', 'abhishek@indiamart.com': 'Abhishek Bhartia', 'rajesh.chand@indiamart.com': 'rajesh.chand', 'imtester@indiamart.com': 'IM-Tester', 'rahuls@indiamart.com': 'Rahul Sharma [Tech]', 'kamesh.patni@indiamart.com': 'Kamesh Patni', 'mamta.chechi@indiamart.com': 'Mamta Chechi', 'supriyo.mitra@indiamart.com': 'Supriyo Mitra', 'nas@indiamart.com': 'NAS Team', 'kundan@indiamart.com': 'kundan', 'sulabh.katiyar@indiamart.com': 'Sulabh Kumar Katiyar', 'pradeeps@indiamart.com': 'Pradeep Sharma', 'vaibhav.jaiswal@indiamart.com': 'Vaibhav Jaiswal - IndiaMART', 'csdtester@indiamart.com': 'CSD Tester', 'harshmasta@indiamart.com': 'Harsh Masta', 'saurabhs@indiamart.com': 'Saurabh Srivastava', 'anujs@indiamart.com': 'Anuj Sharma', 'rbhojwani@indiamart.com': 'Ramesh Bhojwani', 'himanshu.devra@indiamart.com': 'Himanshu Devra', 'sachin.lochan@indiamart.com': 'Sachin Lochan', 'supmit2k3@yahoo.com': 'supmit2k3', 'shashi@indiamart.com': 'Shashi Narain', 'naushad@indiamart.com': 'Naushad Ali', 'rajivranjan@indiamart.com': 'Rajiv Ranjan - IndiaMART', 'rimjhim.srivastava@indiamart.com': 'rimjhim.srivastava', 'ashishkumar@indiamart.com': 'Ashish Kumar', 'vikasgoyal@indiamart.com': 'Vikas Goyal - IndiaMART', 'reema.negi@indiamart.com': 'Reema Negi', 'vishal.bhatnagar@indiamart.com': 'Vishal Bhatnagar', 'chirag.patnaik@indiamart.com': 'Chirag Patnaik', 'rajkamal@indiamart.com': 'Raj Kamal Sharma', 'vivek.verma@indiamart.com': 'Vivek Verma'}
+
+
+Dumped 107 contacts
+
+
+Account activity: 
+You are currently using
+525 MB
+(2%) of your
+25600 MB
+: 
+Last account activity: 3 days ago
+at IP 115.242.4.221.
+&nbsp;<a href="?&amp;v=ac" target="details">Details</a>
+
+Fetched all labels and folders...
+
+Folders List:
+
+Drafts (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=d)
+
+Spam (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=m)
+
+ComposeMail (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&v=b&pv=tl&cs=b)
+
+Contacts (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&v=cl)
+
+All Mail (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=a)
+
+Inbox (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&)
+
+Sent Mail (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=s)
+
+Trash (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=t)
+
+Starred (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=r)
+
+Labels List:
+
+PrivacySettings (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=PrivacySettings)
+
+TaskList (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=TaskList)
+
+LinkedIn (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=LinkedIn)
+
+WeeklyReports (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=WeeklyReports)
+
+Priority (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Priority)
+
+Mahendra (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Mahendra)
+
+Need_to_Check (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Need_to_Check)
+
+Confidential (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Confidential)
+
+ETO_Redirects (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=ETO_Redirects)
+
+personal (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=personal)
+
+IndiamartHR (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=IndiamartHR)
+
+ImageUploadIssue (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=ImageUploadIssue)
+
+Nitin (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Nitin)
+
+RemovalOfUsernameUsageinMYLogin (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=RemovalOfUsernameUsageinMYLogin)
+
+MDC_Creation_Issue (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=MDC_Creation_Issue)
+
+Glusr_To_glusr_check_mp (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Glusr_To_glusr_check_mp)
+
+TodaysTasks (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=TodaysTasks)
+
+OracleJobs (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=OracleJobs)
+
+Bhavna (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Bhavna)
+
+BannersRelated (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=BannersRelated)
+
+NonOpsUserChecks (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=NonOpsUserChecks)
+
+PBC_Mailer (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=PBC_Mailer)
+
+Feedback_to_Complaint (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Feedback_to_Complaint)
+
+MY_UI_Revamp (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=MY_UI_Revamp)
+
+NewJoineeAnnouncements (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=NewJoineeAnnouncements)
+
+ToBeDiscussed (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=ToBeDiscussed)
+
+Sachin (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Sachin)
+
+TrafficAnalysis (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=TrafficAnalysis)
+
+GooglePlus (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=GooglePlus)
+
+Misc (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Misc)
+
+Done (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Done)
+
+IncorporationDateChecks (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=IncorporationDateChecks)
+
+TemplateContentAndDesignMovement (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=TemplateContentAndDesignMovement)
+
+Memcache_Related (URL: https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Memcache_Related)
+
+Processing 'Inbox' folder...
+
+Total Emails In 'Inbox' Folder: 884
+
+Emails Listed Per Page in 'Inbox' folder: 50
+
+Total Number of pages in 'Inbox' folder: 18
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/feedback_integr
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/MYIndiaMARTc
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_16/Fwd_IMTeste
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&v=c&th=1392f88f3f6a3fa0' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_16/Fwd_IMTeste'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Employees_Ind
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_22/Invitation_for
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_16/Employees_SM
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_16/Removal_of_an
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&v=c&th=1392de134ae2aaf3' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_16/Removal_of_an'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_22/Employees_Int
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/Party_Time!!
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_17/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_14/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_17/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_22/Employees_Ind
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_19/pdam_CV
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&v=c&th=1393f891d80af377' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_19/pdam_CV'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_14/feedback_integ
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_16/Welcome_Mr_N
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Employees_The
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/Employees_Go
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_14/Fwd_cgieto
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_14/IndiaMARTcom
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/LinkedIn_Networ
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Oracle_Error_MY
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/11:16_am/Re_Group_Name
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Resume_Vikram
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&v=c&th=13947477854ea9f0' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Resume_Vikram'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_17/IndiaMARTcom
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_16/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_14/ABSENT_SHOWING
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_14/Welcome_New_Jo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/Reminder_Coll
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_14/Employees_We
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Employees_Do
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&v=c&th=13949727293a23b4' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Employees_Do'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_14/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_17/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Family_Details
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_17/Employees_Fi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Fwd_IMTester
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&v=c&th=139492a39a789438' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/Fwd_IMTester'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_17/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_21/ABSENT_SHOWING
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_20/Employees_Se
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&st=50'
+
+Successfully fetched next page
+
+Processing page #2...
+
+Extracted emails from page #2
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/ABSENT_SHOWING
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_10/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/code_to_encode
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1fgf0s9oqtq60/?&v=c&st=50&th=138fa6501a3d0d9a' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/code_to_encode'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_7/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/script_tag_D
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_7/Filename_Issue
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_1/Employees_Im
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1fgf0s9oqtq60/?&v=c&st=50&th=138e1b659fbc9542' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_1/Employees_Im'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_10/Employees_TD
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_31/pressing_tasks
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/Reminder_Coll
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/Invitation_for
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_7/Re_Fwd_Pleas
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_9/Training_Progr
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/TemplateConten
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/slurp_filename
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/Fwd_IMTeste
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1fgf0s9oqtq60/?&v=c&st=50&th=1390655d5c4815b9' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/Fwd_IMTeste'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/error_log_mess
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1fgf0s9oqtq60/?&v=c&st=50&th=139008ac8bd02710' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/error_log_mess'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/Chat_with_Ravi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/Re_High_Inter
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1fgf0s9oqtq60/?&v=c&st=50&th=138fb07428a2fa5a' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/Re_High_Inter'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_13/LinkedIn_Netwo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/Re_send_MY_Hi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_4/Fwd_CSD_Test
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_3/AHU_maintenanc
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/Fwd_MY_is_no
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_10/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_4/list_of_files
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_2/MY_Deliverable
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_14/Fwd_cgieto
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_9/MY_Deliverable
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_3/Fwd_Error_in
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/tinymce_proble
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/Fwd_IMTeste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_1/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_10/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_7/Error_log_mess
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_1/Fwd_IMTeste
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1fgf0s9oqtq60/?&v=c&st=50&th=138e18293ac6607a' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_1/Fwd_IMTeste'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_9/Fwd_cgietop
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/Fwd_IMTeste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_1/Re_IMTester
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_1/Employees_B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/Re_History_li
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_10/Employees_Pe
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_6/IndiaMARTcom
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_3/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_9/Eliminate_the
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_1/sample_text_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_8/TemplateConten
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_13/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Aug_7/leave_request
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1fgf0s9oqtq60/?&st=100'
+
+Successfully fetched next page
+
+Processing page #3...
+
+Extracted emails from page #3
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_20/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_18/Stats_500_Inte
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_30/FW_screen_sho
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1ialomrarspp5/?&v=c&st=100&th=138d7a6ca821430c' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_30/FW_screen_sho'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Transactional
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Chat_with_Sach
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_30/Test_file_Th
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/RequirementsM
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Mediclaim_Poli
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Fwd_Problem_i
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_23/MYIndiaMARTc
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Your_absent_sh
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_27/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_19/Your_login_det
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_27/Employees_Fi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_17/Untitled_sprea
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_20/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_19/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_13/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Re_Event_Trac
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_30/devstg_for_MY
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_25/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_17/Fwd_O_ve_Blo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_13/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_27/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_20/Not_Available
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_13/MY_Form_ReFor
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_28/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_28/Test_Product_i
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_13/Fwd_Reg_Show
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_18/Shyam_Singh_ad
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_19/Re_Fix_Charac
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_30/Lets_meet_at_2
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_19/Fwd_Revised_m
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Oracle_Error
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Chat_with_Bhav
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_17/Re_Contact_in
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_13/Re_Error_in_L
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_18/Timing_still_n
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_30/Employees_Im
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_17/Re_How_to_ope
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_13/Fwd_list_of_f
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_16/Re_Regarding
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_19/Re_Please_che
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_30/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_23/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_18/Fwd_Technical
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_18/Issue_Related
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_19/Subject_Your
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_30/High_Internal
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1ialomrarspp5/?&st=150'
+
+Successfully fetched next page
+
+Processing page #4...
+
+Extracted emails from page #4
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_10/PNS_Number_Fwd
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_13/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_11/Re_Work_Detai
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_5/APTS_TABLES_TO
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/n7c100m4q1mx/?&v=c&st=150&th=1385605fb8f99334' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_5/APTS_TABLES_TO'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/China_Bazaar_l
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_11/Restriction_of
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/Not_in_office
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_9/alltodoMYte
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_9/China_Bazaar_n
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_9/Fwd_Publish_U
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/n7c100m4q1mx/?&v=c&st=150&th=1386a462b96cfa93' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_9/Fwd_Publish_U'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/WELCOME_Mr_A
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_9/Employees_Up
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_11/Remove_Google
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_3/Fwd_IMTeste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_12/Need_account_t
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_4/Message_in_Tem
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/n7c100m4q1mx/?&v=c&st=150&th=13850649bd6a0e25' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_4/Message_in_Tem'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_4/tasks_on_0407
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_12/Re_Request_fo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_4/Template_Conte
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/n7c100m4q1mx/?&v=c&st=150&th=1385218781352151' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_4/Template_Conte'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_4/Template_Desig
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_6/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_11/Query_for_more
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_5/MKSS_Agenda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_5/Error_in_FSV_o
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_11/Employees_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_11/APTS_affected
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_10/no_subject_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_4/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_11/Update_the_STA
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_6/High_increase
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_13/Re_Oracle_Err
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_6/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_9/Re_Fwd_Re
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_12/WIP_tasks_stat
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_5/Weekly_Report
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/n7c100m4q1mx/?&v=c&st=150&th=1385689fbcaf7d92' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_5/Weekly_Report'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_3/Fwd_CSD_Test
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_9/Arrangement_fo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_12/Project_UI_C
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_3/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_10/Re_DBA_Chan
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_10/Fwd_Publish_B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_4/Re_Error_in_T
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_10/errorwarning
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_3/Weekly_Report
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/n7c100m4q1mx/?&v=c&st=150&th=1384b45f7b50f48e' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_3/Weekly_Report'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_10/Re_CSD_Teste
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/n7c100m4q1mx/?&st=200'
+
+Successfully fetched next page
+
+Processing page #5...
+
+Extracted emails from page #5
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/Fwd_Oracle_Er
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/Product_Sortin
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/Employees_Up
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/GA_code_change
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Labels_and_Too
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Fwd_Invitatio
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/sfnrr8wtt2ih/?&v=c&st=200&th=1383216485b0c5ee' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Fwd_Invitatio'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/mail_required
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/sfnrr8wtt2ih/?&v=c&st=200&th=13832e8cfbf9bd2b' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/mail_required'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Team_Leave_Req
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Files_to_uploa
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/Reminder_Sess
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/pc_item_to_pc_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Re_Database_f
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/Urgent_Blood_r
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/Re_Profile_Co
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/Not_able_AddE
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Invitation_Up
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/sfnrr8wtt2ih/?&v=c&st=200&th=13831a340a2a0c3c' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Invitation_Up'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/files_to_be_ad
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/MoM_Profile_C
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Tasks_for_29th
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Text_for_SMSE
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/Re_Template_O
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/files_to_be_ad
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Invitation_Se
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/sfnrr8wtt2ih/?&v=c&st=200&th=138320cf05a34c87' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Invitation_Se'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Re_Mailspira
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Re_problem_of
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/Files_on_STG_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Memcache_Relat
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Re_IMTester
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/To_get_data_en
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/marketplacewi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Keep_an_eye_on
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/MYIndiaMARTc
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jul_2/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/PAN_number_req
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Reminder_Upda
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Top_message_re
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Manage_Product
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/email_imp_
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/sfnrr8wtt2ih/?&v=c&st=200&th=13847c1829f3ebfb' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_30/email_imp_'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/Small_update_i
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/marketplacewi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Profile_Score
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/sfnrr8wtt2ih/?&v=c&st=200&th=138376cc56c56b1b' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_29/Profile_Score'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_28/TeamLeaveReq
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/sfnrr8wtt2ih/?&st=250'
+
+Successfully fetched next page
+
+Processing page #6...
+
+Extracted emails from page #6
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_21/Message_From_A
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/Dashboard_Prof
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/Reminder_Coll
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_19/MY_UI_Revampin
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&v=c&st=250&th=138042e041ccfba4' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_19/MY_UI_Revampin'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/UI_Revamp_Ma
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/Fwd_Publish_U
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_26/LinkedIn_Netwo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_20/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/Fwd_Fwd_Cam
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_19/Chat_with_Bhav
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/upload_on_live
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/Re_Files_To_m
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_21/Re_Jobs_Open
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_21/Fwd_Links_ren
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&v=c&st=250&th=1380df24948db160' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_21/Fwd_Links_ren'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_20/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_26/MYIndiaMARTc
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_20/Error_on_Sign
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/query_SELECT
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_22/Employees_Re
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_21/Chat_with_Mahe
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_22/Reminder_Intr
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_20/Re_Primary_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/Changes_in_the
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_22/Re_Profile_Co
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/FYI_mycontac
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_21/crawl_error_MY
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&v=c&st=250&th=1380e6be1d263e10' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_21/crawl_error_MY'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_21/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/Weekly_Report
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&v=c&st=250&th=1382cbeb7929e8bd' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/Weekly_Report'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_27/Employees_Ch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_26/IMPORTANT_Re
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_22/Re_Add_key_fo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_19/Mahendra_Re_G
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_22/Invitation_In
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&v=c&st=250&th=138129d27bea4d33' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_22/Invitation_In'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_22/Done_MYIndiaM
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/Weekly_Reports
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&v=c&st=250&th=13822fd2f89ca5c0' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/Weekly_Reports'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_22/Fwd_Error_in
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&v=c&st=250&th=138222db80795214' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_22/Fwd_Error_in'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_26/Re_Publish_bu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_26/Re_IMP_Chin
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/data_showing_o
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&v=c&st=250&th=138223b812b1dd42' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/data_showing_o'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_26/Jobs_Openings
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_26/High_increase
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_20/Re_Leaders_of
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_21/Ontime_valida
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_19/PrivacySetting
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_26/Done_Required
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_20/Fwd_CSD_Test
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/Contact_Detail
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/Check_List_MY
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&v=c&st=250&th=13823429538f04df' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_25/Check_List_MY'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_20/Minor_changes
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/jk9ojhtup7jb/?&st=300'
+
+Successfully fetched next page
+
+Processing page #7...
+
+Extracted emails from page #7
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_8/Employees_Lo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Issue_related
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/my_Profile_Sta
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Need_to_Check
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Re_Rotatory_B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_12/Employees_UP
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Absent_are_sho
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Chat_with_Tanu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_15/Employees_Ma
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137ef818c2c90e4e' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_15/Employees_Ma'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_15/MDC_Creation_I
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137efe09b5f51b4f' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_15/MDC_Creation_I'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_15/Message_From_A
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Employees_UP
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Re_Business_I
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Access_log_sta
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_8/Boot_Camp_Su
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137cbb0ba8398ed0' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_8/Boot_Camp_Su'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Re_DB_error_o
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Employees_An
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137fee4ccc37382b' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Employees_An'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_8/Employees_Ke
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_14/Re_CSD_Teste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_15/Employees_Up
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_13/Time_to_Party
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Employees_Co
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137ff2e22a14f5d7' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Employees_Co'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Re_PCK_GL_TES
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Fwd_Invitatio
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137fe78ebe75f8ba' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Fwd_Invitatio'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Invitation_Me
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137fe7587a1f026c' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Invitation_Me'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_14/Employees_Qu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_14/Supriyo_See_w
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_12/Done_Re_IMT
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_9/Employees_Fw
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137d11bf554dfbf3' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_9/Employees_Fw'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_8/Employees_Up
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_14/MYIndiaMARTc
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_13/Git_Production
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_14/Done_Re_publi
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137e9a19eb6206e8' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_14/Done_Re_publi'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_14/JS_error_at_th
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_8/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_14/MY>>Products_i
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_13/Employees_Fw
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137e4dbc6d85ed5c' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_13/Employees_Fw'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Re_Reminder
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Reminder_Meet
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_8/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/ImageUploadIss
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_12/PrivacySetting
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_10/Leave_request
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_11/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Bhavna,_Glusr_
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&v=c&st=300&th=137fea4afdb0d7b4' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_18/Bhavna,_Glusr_'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_13/Sachin_Join_Fr
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_14/Done_Addtion_o
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1utl4nej19v2d/?&st=350'
+
+Successfully fetched next page
+
+Processing page #8...
+
+Extracted emails from page #8
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_4/PAN_number_req
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/Fwd_New_tool
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Re_query_for
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Internal_Serve
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/dfi77upil5v/?&v=c&st=350&th=137a70440fca3cad' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Internal_Serve'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_6/Fwd_Access_lo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_6/Employees_Qu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/BannersRelated
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/LinkedIn_Netwo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_7/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_6/No_of_request
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_2/access_log_for
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/dailyworksch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/NEW_News_Page
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/High_internal
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_2/PAN_number_req
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_4/Weekly_+_Month
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/dfi77upil5v/?&v=c&st=350&th=137b675cf1f87dad' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_4/Weekly_+_Month'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Changes_requir
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/User_Type_Xls
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/dfi77upil5v/?&v=c&st=350&th=137a2ab95dda3f80' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/User_Type_Xls'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_8/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Fw_cv_Forwa
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/dfi77upil5v/?&v=c&st=350&th=137bbadf2eab34be' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Fw_cv_Forwa'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_4/Reminder_Coll
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Employees_He
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Re_Reminder
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/Testimonial_pa
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Dear_Sup,_Revi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Your_Absent_ar
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/problem_in_tem
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_6/Access_log_sta
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_4/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/NewsPress_rel
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_8/Employees_UP
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/test_case_PF
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/dfi77upil5v/?&v=c&st=350&th=137a2fd25bf18897' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/test_case_PF'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Request_to_sha
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Re_Category_P
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_4/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_6/Employees_UP
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_4/Employees_Qu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_4/access_log_rep
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Employees_Do
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/dfi77upil5v/?&v=c&st=350&th=137bd860a0a07a44' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Employees_Do'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/DBD_ERROR_err
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/Oracle_error_o
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_4/Fwd_Contact_P
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/Re_Sky_Sketch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Employees_In
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/dfi77upil5v/?&v=c&st=350&th=137a75c7bb2aea3a' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Employees_In'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_5/Access_log_sta
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Jun_1/Revamp_of_UI_o
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/dfi77upil5v/?&st=400'
+
+Successfully fetched next page
+
+Processing page #9...
+
+Extracted emails from page #9
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_30/Weekly_Report
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jcmi97i52xsw/?&v=c&st=400&th=1379d0ffc020b80e' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_30/Weekly_Report'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/Access_log_for
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Employees_Do
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jcmi97i52xsw/?&v=c&st=400&th=137996e935ea4ec8' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Employees_Do'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_25/Employees_Ve
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Remove_JS_from
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_26/Employees_We
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_30/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/Employees_Br
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_25/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Re_IMTester
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Weekly_Report
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jcmi97i52xsw/?&v=c&st=400&th=13796f06cf063329' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Weekly_Report'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_26/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_30/Employees_Br
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/New_Tool_tip_I
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/TemplateConten
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Re_My_IndiaMA
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_26/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Very_high_incr
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_25/Re_IMTester
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jcmi97i52xsw/?&v=c&st=400&th=1379257cf4fd9a13' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_25/Re_IMTester'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_30/Your_Offer_lis
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Employees_Br
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Employees_Ca
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_25/PCK_PRD_SEARCH
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_31/Access_Logs_de
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_30/Re_Revamping
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_26/CompCat_Listp
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_25/Achievers_Clu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_30/Fwd_server_en
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_24/Supriyo,_see_w
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_24/Re_IMTester
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Re_CSD_Teste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_25/Employees_Br
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Salary_for_14
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Subscribe_few
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_25/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Employees_Br
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_26/Employees_Ch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Reminder_Coll
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/LinkedIn_Netwo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_25/PCK_SEARCH_B2B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Fwd_Cron_Job
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jcmi97i52xsw/?&v=c&st=400&th=137982c0794992cf' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Fwd_Cron_Job'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Re_Error_in_C
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_30/Reason_for_Dow
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Re_STS_B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Fwd_Client_fa
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/jcmi97i52xsw/?&v=c&st=400&th=137919eb5f1a3202' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Fwd_Client_fa'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_28/Re_Reminder
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_30/Follow_UP_Cl
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_29/Employees_Wi
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/jcmi97i52xsw/?&st=450'
+
+Successfully fetched next page
+
+Processing page #10...
+
+Extracted emails from page #10
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Sat_learning_s
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Last_day_at_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_17/SMS_Icon_Dea
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&v=c&st=450&th=1375aa4384d2a239' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_17/SMS_Icon_Dea'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Re_FW_Need_y
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_18/Google_Analyti
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Weekly_report
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Fwd_CSD_Test
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/LinkedIn_Netwo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_17/Employees_B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_17/Fwd_CSD_Test
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&v=c&st=450&th=13758fd3acbaacb5' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_17/Fwd_CSD_Test'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Re_PBC_error
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Database_chang
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_17/Re_Error_Log
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&v=c&st=450&th=1375aea03cc46e9f' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_17/Re_Error_Log'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_21/Re_Reminder
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_18/Message_From_R
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Weekly_Report
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&v=c&st=450&th=137559262050bf7a' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Weekly_Report'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/PC_CLNT_TYPE_a
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&v=c&st=450&th=137741c44f5f9c32' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/PC_CLNT_TYPE_a'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_24/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_21/PCK_PRD_SEARCH
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Fwd_Sat_learn
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Re_Anugraha_P
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_17/Deadline_appro
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/image_for_your
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&v=c&st=450&th=13779ac20844b9a7' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/image_for_your'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_21/Need_Help_in_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_18/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Employees_UP
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_21/Reminder_Coll
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_18/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Fwd_Re_Fwd
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_24/Employees_Br
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Re_Problem_in
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Employees_Br
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_18/Add_skills_and
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Re_MY_FEEDBAC
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_21/Your_Absent_ar
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Employees_Wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_21/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Re_Revised_tr
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_20/PCK_SEARCH_B2B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_21/reqs
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&v=c&st=450&th=1376c03c17bd6ff2' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_21/reqs'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Issue_Space_i
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Employees_Br
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Re_IMTester
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&v=c&st=450&th=13755a56def11001' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Re_IMTester'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/FK_GLUSR_USR_I
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Employees_Do
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&v=c&st=450&th=13774cb787b44359' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/Employees_Do'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_23/Dashboard_Prof
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/GIT_from_the_m
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_22/PCK_PRD_SEARCH
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_21/Employees_Br
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/lepjdi82nhs6/?&st=500'
+
+Successfully fetched next page
+
+Processing page #11...
+
+Extracted emails from page #11
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Internal_Serve
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/glusrmp_Dea
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_10/WIP_My_Repli
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_8/Invitation_to
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Employees_Wa
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Employees_Th
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/Invitation_Di
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/18rcmkgwcvc1q/?&v=c&st=500&th=137306d2faf04ad0' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/Invitation_Di'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/Re_listing_on
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Re_Synchroniz
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/ETO_Redirects
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Employees_To
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/Supriyo,_get_t
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_10/MY_Status_Code
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Changes_in_Tra
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_10/Fwd_IMTeste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Fwd_IMTeste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Access_to_main
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_8/Employees_Wa
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Employees_In
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/18rcmkgwcvc1q/?&v=c&st=500&th=1374e8fe5e4c897a' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Employees_In'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_10/Privacy_Settin
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/Changes_in_Das
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/LinkedIn_Netwo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_11/PCK_PRD_SEARCH
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Fwd_Should_we
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/Reminder_Disc
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Worklist_for_7
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/Employees_Do
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_12/Supriyo,_make
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_11/warn_should_no
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Updated_Invita
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/18rcmkgwcvc1q/?&v=c&st=500&th=1374a61461dca64e' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Updated_Invita'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_11/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_8/Reminder_about
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_12/Database_Conne
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_8/Your_absent_is
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Reminder_Coll
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Icon_for_new_A
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/18rcmkgwcvc1q/?&v=c&st=500&th=1375531fca24bd47' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Icon_for_new_A'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_16/Fwd_Regarding
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_8/Employees_Re
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Employees_Do
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_9/Re_Switching
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_14/Change_in_Dash
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Busy_today_!_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_10/PCK_PRD_SEARCH
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Fwd_Weekly_re
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/18rcmkgwcvc1q/?&v=c&st=500&th=1374eb158e9aa73c' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_15/Fwd_Weekly_re'
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/18rcmkgwcvc1q/?&st=550'
+
+Successfully fetched next page
+
+Processing page #12...
+
+Extracted emails from page #12
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Fwd_Re_grep
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1u8zn9ikx0ckc/?&v=c&st=550&th=13711eae27e96f1d' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Fwd_Re_grep'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_6/IMP_Fwd_Comp
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/ERROR_IN_ORA
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Re_Privacy_Se
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_8/coming_till_11
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Fwd_FCP_Dashb
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Employees_W
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Re_Header_of
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_4/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Re_Reminder
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Tanuj_Singhal
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Fwd_Oracle_Er
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_5/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Re_Update_the
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Go_back_to_pre
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/perl_script_to
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1u8zn9ikx0ckc/?&v=c&st=550&th=137126d3113b825c' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/perl_script_to'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_5/PCK_PRD_SEARCH
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/PAN_number_req
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Halfday_leave
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Addtion_of_a_f
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_4/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Fwd_#3020_Pa
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/OracleJobs_Re
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/email_Ids_list
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_6/OracleJobs_Ora
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Updating_the_f
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/STS_details_up
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Fwd_Weekly_Re
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1u8zn9ikx0ckc/?&v=c&st=550&th=137269d94c24752f' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Fwd_Weekly_Re'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_4/Invitation_to
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Reminder_Coll
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_7/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_4/Chat_with_Mahe
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/PAN_Number_req
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/want_to_review
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/WIP_status_W
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Re_Jquery_url
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Re_Test_join
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_3/Regarding_Part
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_4/Oracle_Error_M
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Re_psc_relate
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1u8zn9ikx0ckc/?&st=600'
+
+Successfully fetched next page
+
+Processing page #13...
+
+Extracted emails from page #13
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_30/Employees_Us
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Employees_Gl
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/PS_Dear_Sir,
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_24/Chat_with_Mahe
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Employees_Ec
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/g2yqd7vzh4at/?&v=c&st=600&th=136f22d6f0fe5e13' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Employees_Ec'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_1/Employees_Do
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_25/Life_With_GIT
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Fwd_IMTeste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_30/Chat_with_Niti
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_1/Re_MY_Produ
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/g2yqd7vzh4at/?&v=c&st=600&th=137082230c32d3f6' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_1/Re_MY_Produ'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_1/Your_Pay_day_f
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Chat_with_kund
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_25/Re_mails_need
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/Chat_with_Bhav
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Employees_Pu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_1/Fwd_Server_lo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_28/Reminder_mail
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_28/Re_Technical
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Employees_Ch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/Feedback_to_Co
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_1/ERROR_IN_ORA
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_30/Employees_Ki
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Issue_with_spe
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_30/IMPORTANT_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/Employees_NE
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_30/Upload_followi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/Employees_Be
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_1/Employees_Wa
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/WIP_of_this_we
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_1/Re_Move_exist
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/headerfooter
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Fwd_Oracle_Er
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/May_2/Re_Oracle_Err
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Apache_error_l
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_27/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_30/Chat_with_Bhav
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/Fwd_JS_alert
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_25/pls_schedule_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/Re_Internal_S
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_25/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_28/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_24/ICL_2012_Champ
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/ToBeDiscussed
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_30/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_30/Reminder_List
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_28/wrong_bread_cr
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_28/OracleJobs_Ora
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_26/Chat_with_Mahe
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_28/IIL_Ticket_7
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/g2yqd7vzh4at/?&st=650'
+
+Successfully fetched next page
+
+Processing page #14...
+
+Extracted emails from page #14
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_20/ajax_tests_P
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/2qfq0xdd6tzy/?&v=c&st=650&th=136cc6ee0d4f199c' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_20/ajax_tests_P'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_18/IndiaMART_Cric
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_10/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_23/Message_From_R
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_19/Employees_Ho
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_10/Employees_Do
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_18/Activation_of
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_11/I_will_be_late
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_9/Your_Absent_da
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_17/Employees_Bu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_20/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_14/Performance_sc
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_23/Daily_Weekly
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_19/Employees_Ge
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_21/Employees_My
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/2qfq0xdd6tzy/?&v=c&st=650&th=136d43a816260880' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_21/Employees_My'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_9/Employees_We
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_9/Reminder_MY_F
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_14/Fwd_Apache_Er
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_12/Re_Regarding
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_17/Employees_Do
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/2qfq0xdd6tzy/?&v=c&st=650&th=136c0c0afe0dd2d7' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_17/Employees_Do'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_24/Will_be_late_t
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_10/Accepted_MY_F
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/2qfq0xdd6tzy/?&v=c&st=650&th=1369a97e4482c644' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_10/Accepted_MY_F'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_17/Employees_Ca
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_14/Fwd_IMTeste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_24/404_on_web6_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_12/ErrorDetails
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_10/Invitation_for
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_12/Semi_Final_Mat
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_17/Request_for_er
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_11/Template_Meta
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_16/Your_Absent_ar
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_24/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_23/Your_Absent_ar
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_24/Re_Reminder
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_20/Final_Match_on
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_18/Employees_Co
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_24/Fwd_Vasudha_T
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_12/301_Redirectio
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/2qfq0xdd6tzy/?&v=c&st=650&th=136a586c4fb413cc' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_12/301_Redirectio'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_11/unittestcases
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_9/Employees_Qu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_12/Employees_Be
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_23/Regarding_leav
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_13/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_12/Oracle_Error_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_18/Re_IMTester
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_18/Employees_Ti
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_10/Accepted_MY_F
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_14/Re_IMTester
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_18/Employees_My
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/2qfq0xdd6tzy/?&v=c&st=650&th=136c439753910eda' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_18/Employees_My'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_10/Reminder_MY_F
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/2qfq0xdd6tzy/?&st=700'
+
+Successfully fetched next page
+
+Processing page #15...
+
+Extracted emails from page #15
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Declined_MY_F
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/vtnzxo05x1of/?&v=c&st=700&th=13687bcb5287535a' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Declined_MY_F'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_9/Party_Time_N
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_31/Employees_Va
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_7/Employees_IC
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_30/Welcome_To_Rak
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/vtnzxo05x1of/?&v=c&st=700&th=13676686e38d8a6d' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_30/Welcome_To_Rak'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_3/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_9/Re_unittestca
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_30/Employees_Le
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_30/Sat_Learning_s
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_30/Annual_Day_Cel
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_7/Employees_Sp
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_5/Employees_Qu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_30/Employees_Be
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_1/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_4/Employees_Sa
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_30/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Tentatively_Ac
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/vtnzxo05x1of/?&v=c&st=700&th=136871f1e9befde9' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Tentatively_Ac'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_3/Employees_ch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_8/Fwd_PROBLEM_I
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Employees_Si
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_5/Reminder_with
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_7/Employees_Fw
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_9/Re_Keep_a_wat
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_1/Employees_Ha
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_31/Employees_Qu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_4/weekly_log_
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/vtnzxo05x1of/?&v=c&st=700&th=1367bf10e3188a8d' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_4/weekly_log_'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_3/Employees_Do
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/unittestcases
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Re_Birthday_W
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_4/Re_Reminder
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_4/webalizer_auth
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Employees_Qu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_3/Employees_Li
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_2/Employees_Qu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_5/Permission_Req
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_2/Cab_Roster_for
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_29/Employees_We
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Accepted_MY_F
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/vtnzxo05x1of/?&v=c&st=700&th=13687b8ddf3a45c9' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Accepted_MY_F'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_2/Dashboard_Prof
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_31/Ownership_Chan
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_2/Fwd_UPDATE_#1
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_5/ETO_Redirects
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_5/Employees_Ch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_31/Your_Pay_Days
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_9/Party_Invitati
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_29/List_of_pages
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/vtnzxo05x1of/?&v=c&st=700&th=1365e595a50664b8' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_29/List_of_pages'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Unit_Testcases
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_3/500_and_404_er
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_6/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Apr_4/Employees_Qu
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/vtnzxo05x1of/?&st=750'
+
+Successfully fetched next page
+
+Processing page #16...
+
+Extracted emails from page #16
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_29/Employees_Ch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_21/Confidential_R
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_22/IIL_Ticket_6
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Message_From_R
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_21/Employees_Us
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_17/Employees_Sa
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Employees_Ne
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_28/Re_logo_Wha
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Updated_Invita
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/3wygie6u3f3t/?&v=c&st=750&th=136529766fb1e47b' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Updated_Invita'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Re_Invitation
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_21/Employees_Do
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_29/JS_Code_Review
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Updated_Invita
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Test_Form_If
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Invitation_wi
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/3wygie6u3f3t/?&v=c&st=750&th=13651d170880444d' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Invitation_wi'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_29/Fwd_CSD_Test
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_24/Re_Product_Se
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Reminder_Team
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Employees_Ch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_20/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Fwd_Oracle_Er
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_19/Your_absent_ar
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_25/4th_Marketplac
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_21/Permission_to
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_17/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_29/Fwd_IMTeste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Employees_Ne
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Fwd_PCAT_Enab
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_24/Re_Reminder
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Fwd_Oracle_Er
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Fwd_Job_page
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Invitation_Te
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/3wygie6u3f3t/?&v=c&st=750&th=1363dd9d02335633' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Invitation_Te'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Employees_Ha
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Employees_Do
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_27/Employees_Bu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_17/Employees_Bu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_25/Received_aweso
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_19/Access_details
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_26/Re_Technical
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Updated_Invita
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/3wygie6u3f3t/?&v=c&st=750&th=1363de0773740fe7' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Updated_Invita'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/RSA_Key_regene
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_28/Your_New_Passw
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_23/Updated_Invita
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_24/Re_A_old_func
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_22/Employees_Bu
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_26/Your_Absent_sh
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_26/Re_CSD_Teste
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_20/Request_for_lo
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/3wygie6u3f3t/?&st=800'
+
+Successfully fetched next page
+
+Processing page #17...
+
+Extracted emails from page #17
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_5/pls_find_the_f
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=135e2da707f82203' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_5/pls_find_the_f'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_9/Provied_Your_B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_Ha
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Employees_Do
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Employees_In
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=1360b4a4bc771c8d' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Employees_In'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_7/Holi_Celebrati
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_16/New_WordPress
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_9/Team_Lunch_D
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_7/wsdl_file_Go
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_5/Fwd_Welcome_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_14/Final_Verdict?
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_15/Updated_Invita
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=13615323368c5a72' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_15/Updated_Invita'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_Vi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_IM
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_14/Fwd_How_to_us
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_We
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=135e81d24cd36228' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_We'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Team_Party_N
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Employees_10
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_12/Finger_Not_Sca
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_14/Invitation_Wo
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=13610b2366aa081b' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_14/Invitation_Wo'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Welcome_Supr
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_15/Reminder_Word
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_16/Team_Lunch_D
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_12/schedule_xls_s
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=1360648760be6a12' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_12/schedule_xls_s'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_17/Fwd_FTP_detai
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_5
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_7/Re_Have_a_Joy
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_12/Provide_your_b
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_7/Holi_Wishes_
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Your_Registrat
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/SSH_Key_for_my
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_15/Passport_Size
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_5/Your_Pay_day_f
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_Do
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=135e81e0b705e75c' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_Do'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_14/Party_Time_p
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_15/Update_WordP
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=136143f4639fcbed' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_15/Update_WordP'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Provided_your
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_15/I_will_be_late
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_7/Memcache_Relat
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=135ec8bee5e4861c' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_7/Memcache_Relat'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_9/Your_absent_ar
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_15/Reminder_Word
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/understand_the
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=135e80103a8312e6' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/understand_the'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_12/Your_Salary_Ch
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Employees_Do
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=1360c21400668853' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Employees_Do'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Employees_S
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_16/Request_for_Wo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_Wa
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&v=c&st=800&th=135e81b4909fd665' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_6/Employees_Wa'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_13/Employees_Wo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_14/Provide_Your_B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_9/Salary_Cheque
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/220tzyx286dn/?&st=850'
+
+Successfully fetched next page
+
+Processing page #18...
+
+Extracted emails from page #18
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_2/Team_Lunch_P
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_29/Employees_Ho
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_28/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_1/Re_UI_Possibl
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_1/Raise_ARs_for
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_29/Employees_We
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Employees_Do
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Appointment_Le
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1r2ovpqpcfb62/?&v=c&st=850&th=135adb29a7c98a92' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Appointment_Le'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Customize_Gmai
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_1/Employees_Si
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Employees_Jo
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_29/UI_Related_doc
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1r2ovpqpcfb62/?&v=c&st=850&th=135c91a575abebc2' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_29/UI_Related_doc'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_4/Message_From_A
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_1/Please_find_so
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_3/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_2/Employees_Ma
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1r2ovpqpcfb62/?&v=c&st=850&th=135d3292366bc71a' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_2/Employees_Ma'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_3/Employees_We
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_2/Message_From_R
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1r2ovpqpcfb62/?&v=c&st=850&th=135d32f9ffc3f1bd' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_2/Message_From_R'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/IndiaMART_welc
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Employees_Fw
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_2/Holi_Celebrati
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_3/myindiamartc
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1r2ovpqpcfb62/?&v=c&st=850&th=135d5401f506cdf4' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_3/myindiamartc'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Get_Gmail_on_y
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_29/Recovered_Pass
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_24/Team_Lunch_A
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Get_started_wi
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_2/Provide_your_b
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_2/fcp_link
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_2/Employees_Ho
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_24/Provide_Your_B
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_1/Employees_Ti
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Mar_3/Employees_In
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Employees_Pr
+
+Retrieved attachment from 'https://mail.google.com/mail/u/0/h/1r2ovpqpcfb62/?&v=c&st=850&th=135a90157bc047ff' and dumped into '/home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_23/Employees_Pr'
+
+Attachment directory path: /home/supmit/work/odesk/EmailBot/Gmail/DumpOutput/Indiamart/Attachments/Feb_27/Employees_Ch
+
+Couldn't retrieve next page URL; current page number is 18.
+
+Processing 'MDC_Creation_Issue' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=MDC_Creation_Issue'...
+
+Folder 'MDC_Creation_Issue' contains 1 emails.
+
+Total Number of pages in 'MDC_Creation_Issue' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'TaskList' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=TaskList'...
+
+Folder 'TaskList' contains 2 emails.
+
+Total Number of pages in 'TaskList' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Drafts' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=d'...
+
+Folder 'Drafts' contains 14 emails.
+
+Total Number of pages in 'Drafts' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Spam' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=m'...
+
+Folder 'Spam' contains 0 emails.
+
+Processing 'LinkedIn' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=LinkedIn'...
+
+Folder 'LinkedIn' contains 6 emails.
+
+Total Number of pages in 'LinkedIn' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Priority' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Priority'...
+
+Folder 'Priority' contains 0 emails.
+
+Processing 'Mahendra' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Mahendra'...
+
+Folder 'Mahendra' contains 2 emails.
+
+Total Number of pages in 'Mahendra' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Need_to_Check' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Need_to_Check'...
+
+Folder 'Need_to_Check' contains 4 emails.
+
+Total Number of pages in 'Need_to_Check' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Trash' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=t'...
+
+Folder 'Trash' contains 0 emails.
+
+Processing 'Starred' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=r'...
+
+Folder 'Starred' contains 202 emails.
+
+Total Number of pages in 'Starred' folder: 5
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1a10154enh8nq/?&s=r&st=50'
+
+Successfully fetched next page
+
+Processing page #2...
+
+Extracted emails from page #2
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/o94bgtyumnoc/?&s=r&st=100'
+
+Successfully fetched next page
+
+Processing page #3...
+
+Extracted emails from page #3
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1bk8a4071ewjx/?&s=r&st=150'
+
+Successfully fetched next page
+
+Processing page #4...
+
+Extracted emails from page #4
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1g8wt35g1becs/?&s=r&st=200'
+
+Successfully fetched next page
+
+Processing page #5...
+
+Extracted emails from page #5
+
+Couldn't retrieve next page URL; current page number is 5.
+
+Processing 'Confidential' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Confidential'...
+
+Folder 'Confidential' contains 2 emails.
+
+Total Number of pages in 'Confidential' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'ETO_Redirects' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=ETO_Redirects'...
+
+Folder 'ETO_Redirects' contains 15 emails.
+
+Total Number of pages in 'ETO_Redirects' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'personal' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=personal'...
+
+Folder 'personal' contains 11 emails.
+
+Total Number of pages in 'personal' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Contacts' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&v=cl'...
+
+Folder 'Contacts' contains 0 emails.
+
+Processing 'IndiamartHR' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=IndiamartHR'...
+
+Folder 'IndiamartHR' contains 77 emails.
+
+Total Number of pages in 'IndiamartHR' folder: 2
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1en01cujmta04/?&s=l&l=IndiamartHR&st=50'
+
+Successfully fetched next page
+
+Processing page #2...
+
+Extracted emails from page #2
+
+Couldn't retrieve next page URL; current page number is 2.
+
+Processing 'ImageUploadIssue' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=ImageUploadIssue'...
+
+Folder 'ImageUploadIssue' contains 1 emails.
+
+Total Number of pages in 'ImageUploadIssue' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Nitin' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Nitin'...
+
+Folder 'Nitin' contains 1 emails.
+
+Total Number of pages in 'Nitin' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'NonOpsUserChecks' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=NonOpsUserChecks'...
+
+Folder 'NonOpsUserChecks' contains 5 emails.
+
+Total Number of pages in 'NonOpsUserChecks' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'GooglePlus' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=GooglePlus'...
+
+Folder 'GooglePlus' contains 1 emails.
+
+Total Number of pages in 'GooglePlus' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'PrivacySettings' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=PrivacySettings'...
+
+Folder 'PrivacySettings' contains 10 emails.
+
+Total Number of pages in 'PrivacySettings' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Glusr_To_glusr_check_mp' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Glusr_To_glusr_check_mp'...
+
+Folder 'Glusr_To_glusr_check_mp' contains 1 emails.
+
+Total Number of pages in 'Glusr_To_glusr_check_mp' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'TodaysTasks' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=TodaysTasks'...
+
+Folder 'TodaysTasks' contains 1 emails.
+
+Total Number of pages in 'TodaysTasks' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'OracleJobs' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=OracleJobs'...
+
+Folder 'OracleJobs' contains 143 emails.
+
+Total Number of pages in 'OracleJobs' folder: 3
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/rt9x4xk4jv0h/?&s=l&l=OracleJobs&st=50'
+
+Successfully fetched next page
+
+Processing page #2...
+
+Extracted emails from page #2
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1d3auyswbcrp2/?&s=l&l=OracleJobs&st=100'
+
+Successfully fetched next page
+
+Processing page #3...
+
+Extracted emails from page #3
+
+Couldn't retrieve next page URL; current page number is 3.
+
+Processing 'Bhavna' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Bhavna'...
+
+Folder 'Bhavna' contains 1 emails.
+
+Total Number of pages in 'Bhavna' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'BannersRelated' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=BannersRelated'...
+
+Folder 'BannersRelated' contains 3 emails.
+
+Total Number of pages in 'BannersRelated' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'RemovalOfUsernameUsageinMYLogin' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=RemovalOfUsernameUsageinMYLogin'...
+
+Folder 'RemovalOfUsernameUsageinMYLogin' contains 1 emails.
+
+Total Number of pages in 'RemovalOfUsernameUsageinMYLogin' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'PBC_Mailer' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=PBC_Mailer'...
+
+Folder 'PBC_Mailer' contains 1 emails.
+
+Total Number of pages in 'PBC_Mailer' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Feedback_to_Complaint' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Feedback_to_Complaint'...
+
+Folder 'Feedback_to_Complaint' contains 42 emails.
+
+Total Number of pages in 'Feedback_to_Complaint' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'MY_UI_Revamp' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=MY_UI_Revamp'...
+
+Folder 'MY_UI_Revamp' contains 1 emails.
+
+Total Number of pages in 'MY_UI_Revamp' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'NewJoineeAnnouncements' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=NewJoineeAnnouncements'...
+
+Folder 'NewJoineeAnnouncements' contains 12 emails.
+
+Total Number of pages in 'NewJoineeAnnouncements' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'ToBeDiscussed' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=ToBeDiscussed'...
+
+Folder 'ToBeDiscussed' contains 3 emails.
+
+Total Number of pages in 'ToBeDiscussed' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Sachin' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Sachin'...
+
+Folder 'Sachin' contains 1 emails.
+
+Total Number of pages in 'Sachin' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'TrafficAnalysis' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=TrafficAnalysis'...
+
+Folder 'TrafficAnalysis' contains 1 emails.
+
+Total Number of pages in 'TrafficAnalysis' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'WeeklyReports' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=WeeklyReports'...
+
+Folder 'WeeklyReports' contains 3 emails.
+
+Total Number of pages in 'WeeklyReports' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Misc' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Misc'...
+
+Folder 'Misc' contains 1 emails.
+
+Total Number of pages in 'Misc' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Done' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Done'...
+
+Folder 'Done' contains 60 emails.
+
+Total Number of pages in 'Done' folder: 2
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/hhsb0gxbrfen/?&s=l&l=Done&st=50'
+
+Successfully fetched next page
+
+Processing page #2...
+
+Extracted emails from page #2
+
+Couldn't retrieve next page URL; current page number is 2.
+
+Processing 'IncorporationDateChecks' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=IncorporationDateChecks'...
+
+Folder 'IncorporationDateChecks' contains 1 emails.
+
+Total Number of pages in 'IncorporationDateChecks' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'TemplateContentAndDesignMovement' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=TemplateContentAndDesignMovement'...
+
+Folder 'TemplateContentAndDesignMovement' contains 8 emails.
+
+Total Number of pages in 'TemplateContentAndDesignMovement' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
+Processing 'Sent Mail' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=s'...
+
+Folder 'Sent Mail' contains 311 emails.
+
+Total Number of pages in 'Sent Mail' folder: 7
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/17engun32wkh5/?&s=s&st=50'
+
+Successfully fetched next page
+
+Processing page #2...
+
+Extracted emails from page #2
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1ktoiyy7v0k9p/?&s=s&st=100'
+
+Successfully fetched next page
+
+Processing page #3...
+
+Extracted emails from page #3
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/nn1h9icov2jf/?&s=s&st=150'
+
+Successfully fetched next page
+
+Processing page #4...
+
+Extracted emails from page #4
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/srxckn7kobmr/?&s=s&st=200'
+
+Successfully fetched next page
+
+Processing page #5...
+
+Extracted emails from page #5
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/qeg3246fggc/?&s=s&st=250'
+
+Successfully fetched next page
+
+Processing page #6...
+
+Extracted emails from page #6
+
+Next page URL: 'https://mail.google.com/mail/u/0/h/1coiscxwqjrzu/?&s=s&st=300'
+
+Successfully fetched next page
+
+Processing page #7...
+
+Extracted emails from page #7
+
+Couldn't retrieve next page URL; current page number is 7.
+
+Processing 'Memcache_Related' folder from 'https://mail.google.com/mail/u/0/h/1unbc2czezdbe/?&s=l&l=Memcache_Related'...
+
+Folder 'Memcache_Related' contains 6 emails.
+
+Total Number of pages in 'Memcache_Related' folder: 1
+
+Processing page #1...
+
+Extracted emails from page #1
+
+Couldn't retrieve next page URL; current page number is 1.
+
