@@ -421,17 +421,7 @@ class GmailBot(EmailBot):
             return True
         else:
             return True
-                    
-    """
-    Class method to identify if a URL (passed to this method) is a relative URL or an absolute one.
-    """
-    def _isAbsoluteUrl(cls, url):
-        s = cls.absUrlPattern.search(url)
-        if s:
-            return True
-        else:
-            return False
-    _isAbsoluteUrl = classmethod(_isAbsoluteUrl)
+
 
     # TODO: Rectify the documentation below.
     """
