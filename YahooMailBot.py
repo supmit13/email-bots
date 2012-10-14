@@ -12,6 +12,9 @@ from Tools import Utils
 from LogHandler import Logger
 import datetime
 import json
+import random
+import string
+
 
 
 class YahooMailBot(EmailBot):
@@ -785,7 +788,6 @@ class YahooMailBot(EmailBot):
 	else:
 	    pass
 	    # For new interface, try to fetch the email counts in each folder in the 'getAvailableFolders()' and 'getCustomFolders()' methods.
-	    # Refer to "./Yahoo/FoldersCounts.html" file for the structure of json data that is parsed by these methods.
         return(int(self._totalEmailsInCurrentFolder))
 
     """
@@ -1155,7 +1157,198 @@ class YahooMailBot(EmailBot):
 		return(0)
 	return(self.allContacts.__len__())
 
-# Thats it I guess....
+
+    """
+    This method should be called as a class method only.
+    The parameters 'username' and 'password' are mandatory, while the rest 
+    of them are optional. The process of registration starts from the page
+    "https://mail.yahoo.com/". It tries to find the hyperlink labelled
+    'Create New Account' on that page and then follows the process. Also,
+    provide 2 elements for SecurityQuestions and SecurityAnswers for a 
+    valid create account request. And BirthDay is in "dd-mm-yyyy" format.
+    NOTE: This method is still under construction.
+    """
+    def createNewAccount(cls, username, password, FirstName=None, LastName=None, AltEmail=None, Gender='f', BirthDay='01-01-1970', Country='us', Language='en-US', SecurityQuestions=[], SecurityAnswers=[]):
+	YahooDomains = ['ymail.com', 'yahoo.com', 'yahoo.co.uk', 'yahoo.co.in', 'rocketmail.com'] # May add more later
+	RandomFlag = False
+	if username is None:
+	    RandomFlag = True
+	loginPageResponse = urllib2.urlopen("https://mail.yahoo.com")
+	print loginPageResponse.info()
+	loginPageContent = cls._decodeGzippedContent(loginPageResponse.read())
+	# Find the "Create New Account" link...
+	signUpButtonPattern = re.compile(r"<a\s+id=\"signUpBtn\"\s+[^>]+\s+href='([^']+)'", re.IGNORECASE | re.MULTILINE | re.DOTALL)
+	signUpButtonSearch = signUpButtonPattern.search(loginPageContent)
+	signUpPageUrl = None
+	if signUpButtonSearch:
+	    signUpPageUrl = signUpButtonSearch.groups()[0]
+	signUpPageContent = ""
+	if signUpPageUrl:
+	    signUpPageResponse = urllib2.urlopen(signUpPageUrl)
+	    signUpPageRespHeaders = signUpPageResponse.info()
+	    signUpPageContent = cls._decodeGzippedContent(signUpPageResponse.read())
+	# Now, if the 'signUpPageContent' is not empty, then find the registration form
+	regFormPattern = re.compile(r"<form\s+id=\"regFormBody\"\s+name=\"([^\"]+)\"\s+action=\"([^\"]+)\"[^>]+>(.*?)</form>", re.MULTILINE | re.DOTALL | re.IGNORECASE)
+	regFormSearch = regFormPattern.search(signUpPageContent)
+	formName = ""
+	formAction = ""
+	formContent = ""
+	if regFormSearch:
+	    searchResults = regFormSearch.groups()
+	    formName = searchResults[0]
+	    formAction = searchResults[1]
+	    formContent = searchResults[2]
+	if formContent.__len__() == 0:
+	    print "Couldn't fetch sign up form content... check the 'regFormPattern' variable if it still reflects the registration form correctly. Leaving execution now"
+	    return (None)
+	# Collect form elements and their default values
+	formSoup = BeautifulSoup(formContent)
+	formElementsDict = {}
+	allHiddens = formSoup.findAll("input", { 'type' : 'hidden' })
+	allSelects = formSoup.findAll("select")
+	allTexts = formSoup.findAll("input", { 'type' : 'text' })
+	allPasswords = formSoup.findAll("input", { 'type' : 'password' })
+	for hidden in allHiddens:
+	    if hidden.has_key("name") and hidden.has_key("value"):
+		formElementsDict[hidden["name"]] = hidden["value"]
+	    elif hidden.has_key("id") and hidden.has_key("value"):
+		formElementsDict[hidden["id"]] = hidden["value"]
+	    elif hidden.has_key("name") and not hidden.has_key("value"):
+	 	formElementsDict[hidden["name"]] = None
+	    elif hidden.has_key("id") and not hidden.has_key("value"):
+		formElementsDict[hidden["id"]] = None
+	    else:
+		pass
+	if Gender is not None:
+	    formElementsDict["gender"] = Gender
+	else:
+	    formElementsDict["gender"] = 'f'
+	if Country is not None:
+	    formElementsDict["country"] = Country
+	else:
+	    formElementsDict["country"] = 'us'
+	if Language is not None:
+	    formElementsDict["language"] = Language
+	else:
+	    formElementsDict["language"] = 'en-US'
+	birthDayPattern = re.compile(r"(\d{1,2})\-(\d{1,2})\-(\d{4})")
+	dd, mm, yyyy = "", "", ""
+	if BirthDay is not None:
+	    birthDaySearch = birthDayPattern.search(BirthDay)
+	    if birthDaySearch:
+		dd, mm, yyyy = birthDaySearch.groups()
+	if mm.__str__().__len__ > 0:
+	    formElementsDict["mm"] = mm.__str__()
+	if dd.__str__().__len__ > 0:
+	    formElementsDict["dd"] = dd.__str__()
+	if yyyy.__str__().__len__ > 0:
+	    formElementsDict["yyyy"] = yyyy.__str__()
+	for select in allSelects:
+	    if select.has_key("name") and (select["name"] == "gender" or select["name"] == "country" or select["name"] == "language" or select["name"] == "mm"):
+		continue
+	    selectName = ""
+	    selectValue = ""
+	    if select.has_key("name"):
+		selectName = select['name']
+	    elif select.has_key("id"):
+		selectName = select['id']
+	    allOptions = select.findAll("option") # This should give us a list
+	    selectedOptionIndex = random.randrange(0, (allOptions.__len__() - 1))
+	    selectedOption = allOptions[selectedOptionIndex]
+	    if selectedOption.has_key("value"):
+	    	selectValue = selectedOption["value"]
+	    formElementsDict[selectName] = selectValue
+            # Hope this will take care of most 'select' elements...
+	if password is None or password == "":	# Generate a random password
+	    char_set = string.ascii_lowercase + string.digits
+	    password = ''.join(random.sample(char_set,8))
+	for passwordElem in allPasswords:
+	    formElementsDict[passwordElem['name']] = password
+	# Now, if username is provided and is None, then let us check if it is available. Firstly, check if a domain name has been specified with the username or not.
+	userWithDomainPattern = re.compile(r"@(.*)$")
+	domainName = ""
+	if username is not None and not userWithDomainPattern.search(username): # randomly select a domain name.
+	    domainIndex = random.randrange(0, (YahooDomains.__len__() - 1))
+	    domainName = YahooDomains[domainIndex]
+	    formElementsDict['domain'] = domainName
+	    formElementsDict['yahooid'] = username
+	elif username is not None:
+	    user,dom = username.split("@")
+	    username = user
+	    formElementsDict['domain'] = dom
+	    formElementsDict['yahooid'] = username
+	if RandomFlag: # If username is specified as None:
+	    char_set = string.ascii_lowercase + string.digits
+	    username = ''.join(random.sample(char_set,8))
+	    formElementsDict['yahooid'] = username
+	else:
+	    formElementsDict['yahooid'] = username
+	if not RandomFlag and FirstName is not None:
+	    formElementsDict['firstname'] = FirstName
+	else:
+	    char_set = string.ascii_lowercase
+	    formElementsDict['firstname'] = ''.join(random.sample(char_set,8)) # Note: Firstname cannot contain anything apart from alphabets and ' or . characters. We are not handling the special 2 characters just now...
+	if not RandomFlag and LastName is not None:
+	    formElementsDict['secondname'] = LastName
+	else:
+	    char_set = string.ascii_lowercase
+	    formElementsDict['secondname'] = ''.join(random.sample(char_set,8)) # Note: LastName cannot contain anything apart from alphabets and ' or . characters. We are not handling the special 2 characters just now...
+	print "Checking if the username '%s' is available...."%formElementsDict['yahooid']
+	isAvailableUsername = False
+	isAvailableUsername = cls.__isUserNameAvailable(formElementsDict)
+	if isAvailableUsername:
+	    print "username '%s' is available for use"%formElementsDict['yahooid']
+	    isAvailableUsername = True
+	else:
+	    print "username '%s' is NOT available for use. Returning 'None' from the method."%formElementsDict['yahooid']
+	    return(None)
+	for text in allTexts:
+	    if text.has_key("name") and text['name'] == "secquestionanswer":
+		char_set = string.ascii_lowercase
+		formElementsDict['secquestionanswer'] = ''.join(random.sample(char_set,4))
+	    elif text.has_key("name") and text['name'] == "secquestionanswer2":
+		char_set = string.ascii_lowercase
+		formElementsDict['secquestionanswer2'] = ''.join(random.sample(char_set,4))
+	    elif text.has_key("name") and text["name"] == "postalcode":
+		zipcodesList = Utils.listAmericanZipCodes()
+		formElementsDict['postalcode'] = zipcodesList[random.randrange(0, zipcodesList.__len__() - 1)]
+
+	    elif text.has_key("name") and text["name"] == "altemail":
+		pass # We will not do anything here as it is an optional argument.
+	    else:
+		pass
+	print "==========================================================================="
+	print formElementsDict
+	print "==========================================================================="
+	# Now we are ready for the request to create the account for us.
+	
+	#f = open("Yahoo/yahooSignupForm2.html", "w")
+	#f.write(formContent)
+	#f.close()
+
+    createNewAccount = classmethod(createNewAccount)
+
+    
+    # Internal method for use in the 'createNewAccount' method. Should be called after most form elements have been populated.
+    def __isUserNameAvailable(cls, formElementsDict):
+	checkUrl = r"https://na.edit.yahoo.com/reg_json?PartnerName=yahoo_default&RequestVersion=1&AccountID=%s@%s&GivenName=%s&FamilyName=%s&ApiName=ValidateFields&intl=us&u=%s&t=%s"%(formElementsDict['yahooid'], formElementsDict['domain'], formElementsDict['firstname'], formElementsDict['secondname'], formElementsDict['u'], formElementsDict['t'])
+	print checkUrl
+	try:
+	    checkResponse = urllib2.urlopen(checkUrl)
+	    checkContent = cls._decodeGzippedContent(checkResponse.read())
+	    jsonDataDict = json.loads(checkContent)
+	    if jsonDataDict.has_key("ResultCode") and jsonDataDict['ResultCode'].upper() == "SUCCESS" or jsonDataDict['ResultCode'].upper() == "TRUE":
+		#print "username '%s' is available...."%formElementsDict['yahooid']
+	    	return(True)
+	    else:
+	   	#print "Username '%s' is not available. Json Code returned is %s"%(formElementsDict['yahooid'], jsonDataDict.has_key("ResultCode"))
+		return(False)
+	except:
+	    print "Tried checking if the username specified was valid or not. The request failed: %s"%sys.exc_info()[1].__str__()
+	    return(False)
+
+    __isUserNameAvailable = classmethod(__isUserNameAvailable)
+# Thats it I guess.... 
 
 
 
@@ -1429,7 +1622,8 @@ def drvAccountCrawler(configFile="./config/YahooMailBot.cfg"):
 
 
 if __name__ == "__main__":
-    drvAccountCrawler()
+    #drvAccountCrawler()
+    YahooMailBot.createNewAccount(None, None)
     
 
 
