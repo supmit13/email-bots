@@ -1174,7 +1174,6 @@ class YahooMailBot(EmailBot):
 	if username is None:
 	    RandomFlag = True
 	loginPageResponse = urllib2.urlopen("https://mail.yahoo.com")
-	print loginPageResponse.info()
 	loginPageContent = cls._decodeGzippedContent(loginPageResponse.read())
 	# Find the "Create New Account" link...
 	signUpButtonPattern = re.compile(r"<a\s+id=\"signUpBtn\"\s+[^>]+\s+href='([^']+)'", re.IGNORECASE | re.MULTILINE | re.DOTALL)
@@ -1317,14 +1316,35 @@ class YahooMailBot(EmailBot):
 		pass # We will not do anything here as it is an optional argument.
 	    else:
 		pass
+	# Now, to load some captcha params, fetch the CaptchaWSProxyService URL:
+	captchaProxyServiceURL = "https://na.edit.yahoo.com/captcha/CaptchaWSProxyService.php?cid=V5&lang=en-US&intl=us&action=createlazy&initial_view=visual&u=%s&t=%s"%(formElementsDict['u'], formElementsDict['t'])
+	captchaProxyServiceResponse = urllib2.urlopen(captchaProxyServiceURL)
+	captchaProxyServiceResponseText = cls._decodeGzippedContent(captchaProxyServiceResponse.read())
+	captchaProxyServiceResponseText = captchaProxyServiceResponseText.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "'").replace("\n", " ")
+	captchaProxyServiceParts = captchaProxyServiceResponseText.split("<CaptchaScript>")
+	captchaServiceContent = captchaProxyServiceParts[0]
+	captchaSoup = BeautifulSoup(captchaServiceContent)
+	allCaptchaHiddenElements = captchaSoup.findAll("input", { 'type' : 'hidden' })
+	allCaptchaTextElements = captchaSoup.findAll("input", { 'type' : 'text' })
+	captchaImageUrl = captchaSoup.find("img", { 'id' : 'captchaV5ClassicCaptchaImg' })
+	for hiddenElements in allCaptchaHiddenElements:
+	    if hiddenElements.has_key("name") and hiddenElements.has_key("value"):
+		formElementsDict[hiddenElements["name"]] = hiddenElements["value"]
+	for textElements in allCaptchaTextElements:
+	    if textElements["name"] == "captchaAnswer"
+		continue
+	    if textElements.has_key("name") and textElements.has_key("value"):
+		formElementsDict[textElements["name"]] = textElements["value"]
+	
+	#if not formElementsDict.has_key("captchaLang"):
+	#    formElementsDict["captchaLang"] = ""
 	print "==========================================================================="
 	print formElementsDict
 	print "==========================================================================="
 	# Now we are ready for the request to create the account for us.
-	
-	#f = open("Yahoo/yahooSignupForm2.html", "w")
-	#f.write(formContent)
-	#f.close()
+	f = open("Yahoo/yahooProxyService.html", "w")
+	f.write(captchaServiceContent)
+	f.close()
 
     createNewAccount = classmethod(createNewAccount)
 
@@ -1509,7 +1529,6 @@ def drvAccountCrawler(configFile="./config/YahooMailBot.cfg"):
     for fkey in allFolders.keys():
 	if fkey.lower() == "inbox":
 	    continue
-    	#content = ybot.openFolderPage(fkey)
 	folderContent = ybot.getFolderPage(fkey)
 	if folderContent is None: # It is necessary to check the return value of 'getFolderPage()' method since it returns 'None' when it cannot fetch the requested folder's page.
 	    print "Could not fetch folder '%s'"%fkey
