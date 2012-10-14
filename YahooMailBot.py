@@ -14,6 +14,7 @@ import datetime
 import json
 import random
 import string
+import cookielib
 
 
 
@@ -79,6 +80,9 @@ class YahooMailBot(EmailBot):
         self.newInterfaceMessagesList = [] # If 'newInterface' is True, then this list will contain data pertaining to the messages in the inbox (by default, inbox messages from the first page).
         self.wssid = ""
         self.signoutUrl = ""
+	self.captchaUsername = ""
+	self.captchaPassword = ""
+	self.captchaService = "DeathByCaptcha"
 
     """
     Method to perform the login into the user account. It parses the login form to retrieve all the form variables that might be needed,
@@ -1174,7 +1178,7 @@ class YahooMailBot(EmailBot):
 	if username is None:
 	    RandomFlag = True
 	loginPageResponse = urllib2.urlopen("https://mail.yahoo.com")
-	loginPageContent = cls._decodeGzippedContent(loginPageResponse.read())
+	loginPageContent = EmailBot._decodeGzippedContent(loginPageResponse.read())
 	# Find the "Create New Account" link...
 	signUpButtonPattern = re.compile(r"<a\s+id=\"signUpBtn\"\s+[^>]+\s+href='([^']+)'", re.IGNORECASE | re.MULTILINE | re.DOTALL)
 	signUpButtonSearch = signUpButtonPattern.search(loginPageContent)
@@ -1185,7 +1189,7 @@ class YahooMailBot(EmailBot):
 	if signUpPageUrl:
 	    signUpPageResponse = urllib2.urlopen(signUpPageUrl)
 	    signUpPageRespHeaders = signUpPageResponse.info()
-	    signUpPageContent = cls._decodeGzippedContent(signUpPageResponse.read())
+	    signUpPageContent = EmailBot._decodeGzippedContent(signUpPageResponse.read())
 	# Now, if the 'signUpPageContent' is not empty, then find the registration form
 	regFormPattern = re.compile(r"<form\s+id=\"regFormBody\"\s+name=\"([^\"]+)\"\s+action=\"([^\"]+)\"[^>]+>(.*?)</form>", re.MULTILINE | re.DOTALL | re.IGNORECASE)
 	regFormSearch = regFormPattern.search(signUpPageContent)
@@ -1282,6 +1286,9 @@ class YahooMailBot(EmailBot):
 	    formElementsDict['yahooid'] = username
 	else:
 	    formElementsDict['yahooid'] = username
+	invalidUsernameSearch = re.compile("^(\d+)(\w+)$").search(formElementsDict['yahooid'])
+	if invalidUsernameSearch:
+	    formElementsDict['yahooid'] = invalidUsernameSearch.groups([1]) + invalidUsernameSearch.groups([2])
 	if not RandomFlag and FirstName is not None:
 	    formElementsDict['firstname'] = FirstName
 	else:
@@ -1311,9 +1318,12 @@ class YahooMailBot(EmailBot):
 	    elif text.has_key("name") and text["name"] == "postalcode":
 		zipcodesList = Utils.listAmericanZipCodes()
 		formElementsDict['postalcode'] = zipcodesList[random.randrange(0, zipcodesList.__len__() - 1)]
-
 	    elif text.has_key("name") and text["name"] == "altemail":
-		pass # We will not do anything here as it is an optional argument.
+		formElementsDict["altemail"] = "" # We will not do anything here as it is an optional argument.
+	    elif text.has_key("name") and text["name"] == "customsecquestion1":
+		formElementsDict["customsecquestion1"] = ""
+	    elif text.has_key("name") and text["name"] == "customsecquestion2":
+		formElementsDict["customsecquestion2"] = ""
 	    else:
 		pass
 	# Now, to load some captcha params, fetch the CaptchaWSProxyService URL:
@@ -1326,24 +1336,61 @@ class YahooMailBot(EmailBot):
 	captchaSoup = BeautifulSoup(captchaServiceContent)
 	allCaptchaHiddenElements = captchaSoup.findAll("input", { 'type' : 'hidden' })
 	allCaptchaTextElements = captchaSoup.findAll("input", { 'type' : 'text' })
-	captchaImageUrl = captchaSoup.find("img", { 'id' : 'captchaV5ClassicCaptchaImg' })
+	captchaImageUrlImageElement = captchaSoup.find("img", { 'id' : 'captchaV5ClassicCaptchaImg' })
+	captchaImageUrl = ""
+	if captchaImageUrlImageElement and captchaImageUrlImageElement.has_key("src"):
+	    captchaImageUrl = captchaImageUrlImageElement["src"]
+	# Send the captchaImageUrl to the captcha service handlers.
 	for hiddenElements in allCaptchaHiddenElements:
 	    if hiddenElements.has_key("name") and hiddenElements.has_key("value"):
 		formElementsDict[hiddenElements["name"]] = hiddenElements["value"]
 	for textElements in allCaptchaTextElements:
-	    if textElements["name"] == "captchaAnswer"
+	    if textElements["name"] == "captchaAnswer":
 		continue
 	    if textElements.has_key("name") and textElements.has_key("value"):
 		formElementsDict[textElements["name"]] = textElements["value"]
-	
-	#if not formElementsDict.has_key("captchaLang"):
-	#    formElementsDict["captchaLang"] = ""
+	captchaString = cls._processCaptchaUsingDBC(captchaImageUrl)
+	if captchaString is not None:
+	    formElementsDict['captchaAnswer'] = captchaString
+	else:
+	    formElementsDict['captchaAnswer'] = ""
+	# Few things to be hard-coded here...
+	formElementsDict['IAgreeBtn'] = "Create My Account"
+	formElementsDict['audioCaptchaClicked'] = "0"
+	formElementsDict['audioCaptchaReplayClicked'] = "0"
+	formElementsDict['tmps'] = "true"
+	formElementsDict['binMapFld'] = ""
+	formElementsDict['tmp_hid'] = ""
+	formElementsDict['rf'] = ""
+	formElementsDict['d_i'] = ""
+	formElementsDict['d_i_h'] = ""
+	formElementsDict['timeSpent'] = ""
+	if formElementsDict.has_key("jsenabled"):
+	    formElementsDict["jsenabled"] = '1'
+	signUpPageTmpHidPattern = re.compile(r"tmpdata:\s+\"([^\"]+)\"")
+	signUpPageTmpHidSearch = signUpPageTmpHidPattern.search(signUpPageContent)
+	if signUpPageTmpHidSearch:
+	    formElementsDict["tmp_hid"] = signUpPageTmpHidSearch.groups()[0]
 	print "==========================================================================="
 	print formElementsDict
 	print "==========================================================================="
+	formElementsData = urllib.urlencode(formElementsDict)
 	# Now we are ready for the request to create the account for us.
-	f = open("Yahoo/yahooProxyService.html", "w")
-	f.write(captchaServiceContent)
+	if not EmailBot._isAbsoluteUrl(formAction):
+	    signUpUrlParts = signUpPageUrl.split("/")
+	    signUpUrlParts.pop()
+	    signUpUrlParts.append(formAction)
+	    formAction = "/".join(signUpUrlParts)
+	regRequest = urllib2.Request(formAction, formElementsData)
+	regResponsePageContent = ""
+	try:
+	    regResponse = urllib2.urlopen(regRequest)
+	    regResponsePageContent = cls._decodeGzippedContent(regResponse.read())
+	except:
+	    print "Could not send request for registration - Reason: %s"%sys.exc_info()[1].__str__()
+	    return (False)
+	f = open("Yahoo/yahooRegistrationService.html", "w")
+	f.write(regResponsePageContent)
 	f.close()
 
     createNewAccount = classmethod(createNewAccount)
@@ -1352,22 +1399,52 @@ class YahooMailBot(EmailBot):
     # Internal method for use in the 'createNewAccount' method. Should be called after most form elements have been populated.
     def __isUserNameAvailable(cls, formElementsDict):
 	checkUrl = r"https://na.edit.yahoo.com/reg_json?PartnerName=yahoo_default&RequestVersion=1&AccountID=%s@%s&GivenName=%s&FamilyName=%s&ApiName=ValidateFields&intl=us&u=%s&t=%s"%(formElementsDict['yahooid'], formElementsDict['domain'], formElementsDict['firstname'], formElementsDict['secondname'], formElementsDict['u'], formElementsDict['t'])
-	print checkUrl
+	#print checkUrl
+
 	try:
 	    checkResponse = urllib2.urlopen(checkUrl)
 	    checkContent = cls._decodeGzippedContent(checkResponse.read())
 	    jsonDataDict = json.loads(checkContent)
 	    if jsonDataDict.has_key("ResultCode") and jsonDataDict['ResultCode'].upper() == "SUCCESS" or jsonDataDict['ResultCode'].upper() == "TRUE":
-		#print "username '%s' is available...."%formElementsDict['yahooid']
 	    	return(True)
 	    else:
-	   	#print "Username '%s' is not available. Json Code returned is %s"%(formElementsDict['yahooid'], jsonDataDict.has_key("ResultCode"))
 		return(False)
 	except:
 	    print "Tried checking if the username specified was valid or not. The request failed: %s"%sys.exc_info()[1].__str__()
 	    return(False)
 
     __isUserNameAvailable = classmethod(__isUserNameAvailable)
+
+    """
+    Captcha processing methods: Using DeathByCaptcha ('processCaptchaUsingDBC') service and Decaptcher API ('')
+    """
+    def _processCaptchaUsingDBC(cls, captchaUrl):
+        apiPath = os.getcwd() + os.path.sep + "CaptchaAPI"
+        sys.path.append(apiPath)
+        import deathbycaptcha
+	captchaUsername = "supmit"
+	captchaPassword = "spmprx"
+	captchaTimeout = 30
+	captchaMinBalance = 0
+        try:
+            client = deathbycaptcha.SocketClient(captchaUsername, captchaPassword)
+            captchaImageResponse = urllib2.urlopen(captchaUrl)
+            captchaImage = captchaImageResponse.read()
+            strIoCaptchaImage = StringIO.StringIO(captchaImage)
+            balance = client.get_balance()
+	    print "BALANCE: " + balance.__str__()
+            captcha = client.decode(strIoCaptchaImage, captchaTimeout)
+            #if balance < captchaMinBalance:
+            #    print "Warning: Your DeathByCaptcha service balance is low. Please renew/recharge the service balance to enjoy uninterrupted service."
+            if captcha:
+                return (captcha["text"])
+        except:
+            print "Could not retrieve captcha text from deathbycaptcha service. Please check your credentials or balance: %s"%(sys.exc_info()[1].__str__())
+            return(None)
+
+    _processCaptchaUsingDBC = classmethod(_processCaptchaUsingDBC)
+
+
 # Thats it I guess.... 
 
 
@@ -1638,6 +1715,7 @@ def drvAccountCrawler(configFile="./config/YahooMailBot.cfg"):
     ##f.write(ybot.currentPageContent)
     ##f.close()
     ##ybot.abracadabra
+
 
 
 if __name__ == "__main__":
