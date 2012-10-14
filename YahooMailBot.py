@@ -1177,7 +1177,13 @@ class YahooMailBot(EmailBot):
 	RandomFlag = False
 	if username is None:
 	    RandomFlag = True
-	loginPageResponse = urllib2.urlopen("https://mail.yahoo.com")
+	def createOpenerWithCookieJar():
+	    import cookielib
+	    cj = cookielib.CookieJar()
+	    opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
+	    return(opener)
+	opener = createOpenerWithCookieJar()
+	loginPageResponse = opener.open("https://mail.yahoo.com")
 	loginPageContent = EmailBot._decodeGzippedContent(loginPageResponse.read())
 	# Find the "Create New Account" link...
 	signUpButtonPattern = re.compile(r"<a\s+id=\"signUpBtn\"\s+[^>]+\s+href='([^']+)'", re.IGNORECASE | re.MULTILINE | re.DOTALL)
@@ -1187,7 +1193,7 @@ class YahooMailBot(EmailBot):
 	    signUpPageUrl = signUpButtonSearch.groups()[0]
 	signUpPageContent = ""
 	if signUpPageUrl:
-	    signUpPageResponse = urllib2.urlopen(signUpPageUrl)
+	    signUpPageResponse = opener.open(signUpPageUrl)
 	    signUpPageRespHeaders = signUpPageResponse.info()
 	    signUpPageContent = EmailBot._decodeGzippedContent(signUpPageResponse.read())
 	# Now, if the 'signUpPageContent' is not empty, then find the registration form
@@ -1233,6 +1239,7 @@ class YahooMailBot(EmailBot):
 	if Language is not None:
 	    formElementsDict["language"] = Language
 	else:
+
 	    formElementsDict["language"] = 'en-US'
 	birthDayPattern = re.compile(r"(\d{1,2})\-(\d{1,2})\-(\d{4})")
 	dd, mm, yyyy = "", "", ""
@@ -1301,7 +1308,7 @@ class YahooMailBot(EmailBot):
 	    formElementsDict['secondname'] = ''.join(random.sample(char_set,8)) # Note: LastName cannot contain anything apart from alphabets and ' or . characters. We are not handling the special 2 characters just now...
 	print "Checking if the username '%s' is available...."%formElementsDict['yahooid']
 	isAvailableUsername = False
-	isAvailableUsername = cls.__isUserNameAvailable(formElementsDict)
+	isAvailableUsername = cls.__isUserNameAvailable(opener, formElementsDict)
 	if isAvailableUsername:
 	    print "username '%s' is available for use"%formElementsDict['yahooid']
 	    isAvailableUsername = True
@@ -1328,7 +1335,7 @@ class YahooMailBot(EmailBot):
 		pass
 	# Now, to load some captcha params, fetch the CaptchaWSProxyService URL:
 	captchaProxyServiceURL = "https://na.edit.yahoo.com/captcha/CaptchaWSProxyService.php?cid=V5&lang=en-US&intl=us&action=createlazy&initial_view=visual&u=%s&t=%s"%(formElementsDict['u'], formElementsDict['t'])
-	captchaProxyServiceResponse = urllib2.urlopen(captchaProxyServiceURL)
+	captchaProxyServiceResponse = opener.open(captchaProxyServiceURL)
 	captchaProxyServiceResponseText = cls._decodeGzippedContent(captchaProxyServiceResponse.read())
 	captchaProxyServiceResponseText = captchaProxyServiceResponseText.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "'").replace("\n", " ")
 	captchaProxyServiceParts = captchaProxyServiceResponseText.split("<CaptchaScript>")
@@ -1381,10 +1388,15 @@ class YahooMailBot(EmailBot):
 	    signUpUrlParts.pop()
 	    signUpUrlParts.append(formAction)
 	    formAction = "/".join(signUpUrlParts)
-	regRequest = urllib2.Request(formAction, formElementsData)
+	httpHeaders = { 'User-Agent' : r'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.10) Gecko/20111103 Firefox/3.6.24',  'Accept' : 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language' : 'en-us,en;q=0.5', 'Accept-Encoding' : 'gzip,deflate', 'Accept-Charset' : 'ISO-8859-1,utf-8;q=0.7,*;q=0.7', 'Keep-Alive' : '115', 'Connection' : 'keep-alive', }
+	httpHeaders['Content-Type'] = "application/x-www-form-urlencoded"
+	httpHeaders['Content-Length'] = formElementsData.__len__()
+	print "CJ = " + cj.__str__()
+	regRequest = urllib2.Request(formAction, formElementsData, httpHeaders)
 	regResponsePageContent = ""
 	try:
-	    regResponse = urllib2.urlopen(regRequest)
+	    regResponse = opener.open(regRequest)
+	    print "CODE: %s - Message: %s"%(regResponse.getcode(), regResponse.msg)
 	    regResponsePageContent = cls._decodeGzippedContent(regResponse.read())
 	except:
 	    print "Could not send request for registration - Reason: %s"%sys.exc_info()[1].__str__()
@@ -1397,12 +1409,12 @@ class YahooMailBot(EmailBot):
 
     
     # Internal method for use in the 'createNewAccount' method. Should be called after most form elements have been populated.
-    def __isUserNameAvailable(cls, formElementsDict):
+    def __isUserNameAvailable(cls, opener, formElementsDict):
 	checkUrl = r"https://na.edit.yahoo.com/reg_json?PartnerName=yahoo_default&RequestVersion=1&AccountID=%s@%s&GivenName=%s&FamilyName=%s&ApiName=ValidateFields&intl=us&u=%s&t=%s"%(formElementsDict['yahooid'], formElementsDict['domain'], formElementsDict['firstname'], formElementsDict['secondname'], formElementsDict['u'], formElementsDict['t'])
 	#print checkUrl
 
 	try:
-	    checkResponse = urllib2.urlopen(checkUrl)
+	    checkResponse = opener.open(checkUrl)
 	    checkContent = cls._decodeGzippedContent(checkResponse.read())
 	    jsonDataDict = json.loads(checkContent)
 	    if jsonDataDict.has_key("ResultCode") and jsonDataDict['ResultCode'].upper() == "SUCCESS" or jsonDataDict['ResultCode'].upper() == "TRUE":
