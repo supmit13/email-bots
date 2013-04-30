@@ -215,7 +215,7 @@ class YahooMailBot(EmailBot):
     Note: Calling this also sets the 'signoutURL' attribute of the 'YahooMailBot' object.
     """
     def _assertLogin(self):
-        assertPattern = re.compile(r"You are signed in as", re.MULTILINE | re.DOTALL)
+        assertPattern = re.compile(r"Signed in as", re.MULTILINE | re.DOTALL | re.IGNORECASE)
         assertSearch = assertPattern.search(self.currentPageContent)
         if assertSearch:
 	    self._getLogoutUrl()
